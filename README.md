@@ -1,6 +1,10 @@
-# Full Stack Portfolio Website
+# Full Stack Portfolio Website - Ranadeep Layak
 
 A modern, fully-functional portfolio website built with **Vanilla JavaScript**, **Express.js**, and **MongoDB**. Features smooth GSAP animations, responsive design, and a complete contact management system.
+
+🔗 **Live Portfolio:** https://my-portfolio-nine-peach-7hw81ziq75.vercel.app/  
+📧 **Admin Messages:** https://my-portfolio-nine-peach-7hw81ziq75.vercel.app/messages.html  
+🚀 **Backend API:** https://portfolio-website-veqf.onrender.com/
 
 ## 🎯 Features
 
@@ -70,21 +74,30 @@ python -m http.server 3000
 
 Visit `http://localhost:3000` in your browser.
 
-## 🌐 Deployment
+## 🌐 Deployment Status
+
+✅ **Frontend:** Deployed on Vercel  
+✅ **Backend:** Deployed on Render  
+✅ **Database:** Connected to MongoDB Atlas  
+✅ **Contact Form:** Fully functional  
 
 ### Backend (Render)
 1. Push code to GitHub
 2. Go to https://render.com
 3. Create new Web Service
 4. Connect GitHub repository
-5. Add environment variables (MONGODB_URI, PORT, CORS_ORIGIN)
+5. Add environment variables:
+   - `MONGODB_URI=your_mongodb_connection_string`
+   - `PORT=5000`
+   - `CORS_ORIGIN=https://my-portfolio-nine-peach-7hw81ziq75.vercel.app`
 6. Deploy
 
 ### Frontend (Vercel)
 1. Go to https://vercel.com
 2. Import GitHub repository
 3. Select `portfolio-frontend` as root directory
-4. Deploy
+4. Configure `vercel.json` with proper settings
+5. Deploy
 
 ## 📧 API Endpoints
 
@@ -100,7 +113,7 @@ Visit `http://localhost:3000` in your browser.
 
 ## 🎨 Customization
 
-All content is stored in `portfolio-backend/server.js` (lines 50-165):
+All content is configured in `portfolio-frontend/script.js` (lines 68-160):
 - Hero section (name, title, description)
 - About section (bio, image)
 - Education (degrees and institutions)
@@ -109,7 +122,10 @@ All content is stored in `portfolio-backend/server.js` (lines 50-165):
 - Contact info (email, phone, location)
 - Social links (LinkedIn, GitHub)
 
-Edit and redeploy backend to update content.
+Edit the `defaultData` object in script.js and redeploy frontend to update content.
+
+### Backend Customization
+If needed, default data is also in `portfolio-backend/server.js` (lines 50-165) for API fallback.
 
 ## 🛠️ Tech Stack
 
@@ -146,9 +162,23 @@ Edit and redeploy backend to update content.
 - ✅ Messages saved to MongoDB
 - ✅ CORS properly configured
 - ✅ Deployment configs ready
-- ✅ No console errors
-- ✅ All animations optimized
+- ✅🎉 Features Implemented
 
+- ✨ **GSAP Animations** with ScrollTrigger plugin
+- 📱 **Fully Responsive Design** (mobile, tablet, desktop)
+- 🎨 **Modern UI** with gradient colors and smooth transitions
+- 🧭 **Sticky Navigation** with hamburger menu
+- 7️⃣ **7 Main Sections** + floating shape animations
+- 📧 **Contact Form** with real-time validation
+- 💾 **Message Storage** in MongoDB
+- 📋 **Admin Dashboard** to manage messages
+- 🔗 **Social Links** with custom text icons
+- 🌐 **CORS Enabled** for secure communication
+- ⚡ **Optimized Performance** with minimal dependencies
+
+## 📝 License
+
+Built by Ranadeep Layak - December
 ## 📝 License
 
 Built by Ranadeep Layak - 2025
@@ -484,7 +514,3 @@ For issues or questions:
 4. Verify API connectivity
 
 ---
-
-**Deployment Links** (to be added after deployment):
-- Frontend: `https://your-frontend.vercel.app`
-- Backend: `https://your-backend.onrender.com`
