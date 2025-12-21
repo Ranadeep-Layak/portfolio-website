@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-frontend",
+  "version": "1.0.0",
+  "description": "Portfolio frontend - Static HTML/CSS/JS",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'No build needed for static site'"
+  }
+}
