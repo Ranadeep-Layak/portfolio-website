@@ -172,7 +172,7 @@ cp .env.example .env
 
 4. **Update `.env` with your credentials:**
 ```
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/portfolio_db
+MONGODB_URI=your connection string
 PORT=5000
 CORS_ORIGIN=http://localhost:3000
 ```
