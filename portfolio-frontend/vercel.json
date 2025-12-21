@@ -1,0 +1,12 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "framework": "vanilla",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
