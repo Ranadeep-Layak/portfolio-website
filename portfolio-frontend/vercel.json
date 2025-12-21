@@ -1,7 +1,6 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
-  "framework": "vanilla",
   "cleanUrls": true,
   "rewrites": [
     {
