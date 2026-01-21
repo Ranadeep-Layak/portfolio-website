@@ -178,10 +178,7 @@ If needed, default data is also in `portfolio-backend/server.js` (lines 50-165) 
 
 ## 📝 License
 
-Built by Ranadeep Layak - December
-## 📝 License
-
-Built by Ranadeep Layak - 2025
+Built by Ranadeep Layak - December,2025
 
 ### Backend Setup
 
